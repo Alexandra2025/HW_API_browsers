@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="slider-container">
+      <div id="slider">
+        <div class="slide"><img src="img/image_1.jpg" alt="Image 1" /></div>
+        <div class="slide"><img src="img/image_2.jpg" alt="Image 2" /></div>
+        <div class="slide"><img src="img/image_3.jpg" alt="Image 3" /></div>
+      </div>
+      <div class="slider-btn" id="prevBtn" onclick="prevSlide()">&#10094;</div>
+      <div class="slider-btn" id="nextBtn" onclick="nextSlide()">&#10095;</div>
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+    <script src="script.js" defer></script>
+  </body>
+</html>
